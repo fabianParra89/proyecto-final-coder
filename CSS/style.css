@@ -55,6 +55,7 @@
 /* Estilos main */
 
 .gradiente-radial {
+    width: 100%;
     background-image: radial-gradient(#d7d2cc, rgb(21, 22, 31) 70%);
     padding-block-start: 3rem;
     padding-block-end: 3rem;
@@ -100,6 +101,27 @@
         ". . . circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23  . . .";
 }
 
+.grid-main-circuitos div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column
+}
+
+.grid-main-circuitos div:hover {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+
 
 .grid-main-circuitos div img {
     width: 100%;
@@ -139,498 +161,197 @@
     width: 105px;
 }
 
-
-
 .circuito1 {
     grid-area: circuito1;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    display: flex;
-    flex-direction: column
 }
 
-.circuito1:hover {
-    grid-area: circuito1;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
 
 .circuito2 {
     grid-area: circuito2;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito2:hover {
-    grid-area: circuito2;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito3 {
     grid-area: circuito3;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
 }
 
-.circuito3:hover {
-    grid-area: circuito3;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
 
 .circuito4 {
     grid-area: circuito4;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
 }
 
-.circuito4:hover {
-    grid-area: circuito4;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
 
 .circuito5 {
     grid-area: circuito5;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
 }
 
-.circuito5:hover {
-    grid-area: circuito5;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
 
 .circuito6 {
     grid-area: circuito6;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito6:hover {
-    grid-area: circuito6;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito7 {
     grid-area: circuito7;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito7:hover {
-    grid-area: circuito7;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito8 {
     grid-area: circuito8;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito8:hover {
-    grid-area: circuito8;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito9 {
     grid-area: circuito9;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito9:hover {
-    grid-area: circuito9;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito10 {
     grid-area: circuito10;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito10:hover {
-    grid-area: circuito10;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito11 {
     grid-area: circuito11;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito11:hover {
-    grid-area: circuito11;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito12 {
     grid-area: circuito12;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito12:hover {
-    grid-area: circuito12;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    /* transform: scale(1.1, 1.1) translate(1475px, 860px); */
-
 }
 
 .circuito13 {
     grid-area: circuito13;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito13:hover {
-    grid-area: circuito13;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    /* transform: scale(1.1, 1.1) translate(20px, 1285px); */
-
 }
 
 .circuito14 {
     grid-area: circuito14;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito14:hover {
-    grid-area: circuito14;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito15 {
     grid-area: circuito15;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito15:hover {
-    grid-area: circuito15;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito16 {
     grid-area: circuito16;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito16:hover {
-    grid-area: circuito16;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito17 {
     grid-area: circuito17;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito17:hover {
-    grid-area: circuito17;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito18 {
     grid-area: circuito18;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito18:hover {
-    grid-area: circuito18;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito19 {
     grid-area: circuito19;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito19:hover {
-    grid-area: circuito19;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito20 {
     grid-area: circuito20;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito20:hover {
-    grid-area: circuito20;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito21 {
     grid-area: circuito21;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito21:hover {
-    grid-area: circuito21;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
 }
 
 .circuito22 {
     grid-area: circuito22;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
-}
-
-.circuito22:hover {
-    grid-area: circuito22;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    /* transform: scale(1.1, 1.1) translate(745px, 2135px); */
-
 }
 
 .circuito23 {
     grid-area: circuito23;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    flex-direction: column
 }
 
-.circuito23:hover {
-    grid-area: circuito23;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
+/* Estilos pagina pilotos */
+.img-pilotos-padre {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    /* transform: scale(1.1, 1.1) translate(1230px, 2135px); */
+    align-items: center;
+}
 
+.img-pilotos-padre img {
+    width: 400px;
+}
+
+.img-pilotos-padre ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.img-pilotos-padre ul li {
+    display: block;
+}
+
+.img-pilotos-padre ul li p{
+    margin: 0;
+}
+
+
+.titulo-modal {
+    border: 1px solid black;
+}
+
+.pilotos-button-padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pilotos-button-padre button {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    border: none;
+    font-size: 11pt;
+}
+
+
+
+
+.pilotos-iframe {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pilotos-iframe iframe {
+    width: 1000px;
+    height: 562px;
+}
+/* estilos pagina estadisticas */
+.estadisticas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.estadisticas div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+/* estilos pagina foro */
+
+.inicio-sesion {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form-registrarse{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.selector-foro button{
+    color: white;
 }
 
 /* Estilos footer paginas */
