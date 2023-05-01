@@ -1,65 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-}
-
-/* estilos navbar */
+  margin: 0;
+  padding: 0; }
 
 .nav-bar {
-    background-color: rgb(21, 22, 31) !important;
-
-}
-
-.nav-bar-text {
-    color: white;
-    font-size: 18pt;
-    margin: 15px;
-    border-radius: 5px;
-}
-
-.nav-bar-text:hover {
-    color: white;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, #AE1400 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+  background-color: #15161f !important; }
+  .nav-bar .nav-logo {
+    width: 300px; }
+  .nav-bar .nav-menu-ham {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
     background-blend-mode: multiply, multiply;
-    font-size: 16pt;
-    transition: font-size 0.5s;
-}
-
-.nav-logo {
-    width: 300px;
-}
-
-.nav-but-search {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    border: 2px solid #AE1400; }
+  .nav-bar .nav-list {
+    margin: auto; }
+    .nav-bar .nav-list .nav-bar-text {
+      color: white;
+      font-size: 18pt;
+      margin: 15px;
+      border-radius: 5px; }
+      .nav-bar .nav-list .nav-bar-text:hover {
+        color: white;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, #AE1400 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+        background-blend-mode: multiply, multiply;
+        font-size: 16pt;
+        transition: font-size 0.5s; }
+  .nav-bar .nav-but-search {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
     background-blend-mode: multiply, multiply;
     border: 2px solid #AE1400;
-    color: white;
-}
-
-.nav-list {
-    margin: auto;
-}
-
-.nav-input-search {
-    border: 2px solid #AE1400;
-}
-
-.nav-menu-ham {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
-    background-blend-mode: multiply, multiply;
-    border: 2px solid #AE1400;
-}
-
-/* Estilos main */
+    color: white; }
+  .nav-bar .nav-input-search {
+    border: 2px solid #AE1400; }
 
 .gradiente-radial {
-    width: 100%;
-    background-image: radial-gradient(#d7d2cc, rgb(21, 22, 31) 70%);
-    padding-block-start: 3rem;
-    padding-block-end: 3rem;
-}
-
-.carousel-caption {
+  width: 100%;
+  background-image: radial-gradient(#d7d2cc, #15161f 70%);
+  padding-block-start: 3rem;
+  padding-block-end: 3rem; }
+  .gradiente-radial .carousel-item div a {
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold; }
+  .gradiente-radial .carousel-item .carousel-caption {
     position: absolute;
     right: 13%;
     bottom: 1.25rem;
@@ -67,641 +49,198 @@
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #FFE;
-    text-align: center;
-}
-
-.carousel-item div a {
-    text-decoration: none;
-    color: white;
-    font-size: 18pt;
-    font-weight: bold;
-
-}
+    text-align: center; }
 
 .main-cards {
-    margin-block-start: 3rem;
-}
+  margin-block-start: 3rem; }
+
+.banderas-padre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .banderas-padre a img {
+    width: 90px; }
+    .banderas-padre a img:hover {
+      width: 105px; }
 
 .grid-main-circuitos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows:  1fr 0.1fr 1fr 1fr 1fr 1fr 1fr; */
-    /* grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row; */
-    grid-template-areas:
-        "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
-        "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8"
-        "circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12"
-        "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16"
-        "circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20"
-        ". . . circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23  . . .";
-}
-
-.grid-main-circuitos div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4" "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8" "circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12" "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16" "circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20" ". . . circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23  . . ."; }
+  .grid-main-circuitos div {
     margin: 20px;
     padding: 20px;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
     display: flex;
-    flex-direction: column
-}
-
-.grid-main-circuitos div:hover {
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-
-.grid-main-circuitos div img {
-    width: 100%;
-    background-color: white;
-}
-
-.grid-main-circuitos div h3 {
-    border: 1px white solid;
-    margin: 0;
-    text-align: center;
-}
-
-.grid-main-circuitos div ul {
-    border: 1px white solid;
-}
-
-.grid-main-circuitos div ul li {
-    display: block;
-}
-
-.grid-main-circuitos div ul li p {
-    margin-bottom: 1px !important;
-}
-
-.banderas-padre {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.banderas-padre a img {
-    width: 90px;
-}
-
-.banderas-padre a img:hover {
-    width: 105px;
-}
-
-.circuito1 {
-    grid-area: circuito1;
-}
-
-
-.circuito2 {
-    grid-area: circuito2;
-}
-
-.circuito3 {
-    grid-area: circuito3;
-}
-
-
-.circuito4 {
-    grid-area: circuito4;
-}
-
-
-.circuito5 {
-    grid-area: circuito5;
-}
-
-
-.circuito6 {
-    grid-area: circuito6;
-}
-
-.circuito7 {
-    grid-area: circuito7;
-}
-
-.circuito8 {
-    grid-area: circuito8;
-}
-
-.circuito9 {
-    grid-area: circuito9;
-}
-
-.circuito10 {
-    grid-area: circuito10;
-}
-
-.circuito11 {
-    grid-area: circuito11;
-}
-
-.circuito12 {
-    grid-area: circuito12;
-}
-
-.circuito13 {
-    grid-area: circuito13;
-}
-
-.circuito14 {
-    grid-area: circuito14;
-}
-
-.circuito15 {
-    grid-area: circuito15;
-}
-
-.circuito16 {
-    grid-area: circuito16;
-}
-
-.circuito17 {
-    grid-area: circuito17;
-}
-
-.circuito18 {
-    grid-area: circuito18;
-}
-
-.circuito19 {
-    grid-area: circuito19;
-}
-
-.circuito20 {
-    grid-area: circuito20;
-}
-
-.circuito21 {
-    grid-area: circuito21;
-}
-
-.circuito22 {
-    grid-area: circuito22;
-}
-
-.circuito23 {
-    grid-area: circuito23;
-}
-
-/* Estilos pagina pilotos */
-.img-pilotos-padre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-pilotos-padre img {
-    width: 400px;
-}
-
-.img-pilotos-padre ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    border: 1px solid black;
-}
-
-.img-pilotos-padre ul li {
-    display: block;
-}
-
-.img-pilotos-padre ul li p {
-    margin: 0;
-}
-
-.titulo-modal {
-    border: 1px solid black;
-}
+    flex-direction: column; }
+    .grid-main-circuitos div:hover {
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid black;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      background-color: white; }
+    .grid-main-circuitos div img {
+      width: 100%;
+      background-color: white; }
+    .grid-main-circuitos div h3 {
+      border: 1px white solid;
+      margin: 0;
+      text-align: center; }
+    .grid-main-circuitos div ul {
+      border: 1px white solid; }
+      .grid-main-circuitos div ul li {
+        display: block; }
+        .grid-main-circuitos div ul li p {
+          margin-bottom: 1px !important; }
+  .grid-main-circuitos .circuito1 {
+    grid-area: circuito1; }
+  .grid-main-circuitos .circuito2 {
+    grid-area: circuito2; }
+  .grid-main-circuitos .circuito3 {
+    grid-area: circuito3; }
+  .grid-main-circuitos .circuito4 {
+    grid-area: circuito4; }
+  .grid-main-circuitos .circuito5 {
+    grid-area: circuito5; }
+  .grid-main-circuitos .circuito6 {
+    grid-area: circuito6; }
+  .grid-main-circuitos .circuito7 {
+    grid-area: circuito7; }
+  .grid-main-circuitos .circuito8 {
+    grid-area: circuito8; }
+  .grid-main-circuitos .circuito9 {
+    grid-area: circuito9; }
+  .grid-main-circuitos .circuito10 {
+    grid-area: circuito10; }
+  .grid-main-circuitos .circuito11 {
+    grid-area: circuito11; }
+  .grid-main-circuitos .circuito12 {
+    grid-area: circuito12; }
+  .grid-main-circuitos .circuito13 {
+    grid-area: circuito13; }
+  .grid-main-circuitos .circuito14 {
+    grid-area: circuito14; }
+  .grid-main-circuitos .circuito15 {
+    grid-area: circuito15; }
+  .grid-main-circuitos .circuito16 {
+    grid-area: circuito16; }
+  .grid-main-circuitos .circuito17 {
+    grid-area: circuito17; }
+  .grid-main-circuitos .circuito18 {
+    grid-area: circuito18; }
+  .grid-main-circuitos .circuito19 {
+    grid-area: circuito19; }
+  .grid-main-circuitos .circuito20 {
+    grid-area: circuito20; }
+  .grid-main-circuitos .circuito21 {
+    grid-area: circuito21; }
+  .grid-main-circuitos .circuito22 {
+    grid-area: circuito22; }
+  .grid-main-circuitos .circuito23 {
+    grid-area: circuito23; }
 
 .pilotos-button-padre {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.pilotos-button-padre button {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .pilotos-button-padre button {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
     border: none;
     width: 230px;
     margin: 5px;
-    font-size: 16pt;
+    font-size: 16pt; }
 
-}
+.img-pilotos-padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .img-pilotos-padre img {
+    width: 400px; }
+  .img-pilotos-padre ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black; }
+    .img-pilotos-padre ul li {
+      display: block; }
+      .img-pilotos-padre ul li p {
+        margin: 0; }
+
+.titulo-modal {
+  border: 1px solid black; }
 
 .pilotos-iframe {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.pilotos-iframe iframe {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+  .pilotos-iframe iframe {
     width: 1300px;
-    height: 730px;
-}
+    height: 730px; }
 
-/* estilos pagina estadisticas */
 .estadisticas {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.estadisticas div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around; }
+  .estadisticas div {
     display: flex;
     flex-direction: column;
-    color: white;
-}
-
-/* estilos pagina foro */
-
-.inicio-sesion {
-    margin: auto;
-    width: 700px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-}
-.inicio-sesion button{
-    background-color: #ee0000;
-    border: 1px solid #ee0000;
-    width: 200px;
-    font-size: 14pt;
-}
-
-.form-registrarse {
-    margin: auto;
-    width: 700px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-}
-
-
-.form-registrarse button{
-    background-color: #ee0000;
-    border: 1px solid #ee0000;
-    width: 200px;
-    font-size: 14pt;
-}
+    color: white; }
 
 .selector-foro button {
-    color: white;
-}
+  color: white; }
 
 .foro-form-padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .foro-form-padre img {
+    width: 500px;
+    height: 350px; }
+  .foro-form-padre .form-registrarse {
+    margin: auto;
+    width: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.foro-form-padre img {
-   width: 500px;
-   height: 350px;
-}
-
-
-
-
-
-/* Estilos footer paginas */
-.li-redes {
-    display: inline-block;
-    margin: 10px;
-    margin-top: 25px;
-}
-
-.img-redes {
-    width: 30px;
-}
+    align-items: stretch;
+    justify-content: flex-start; }
+    .foro-form-padre .form-registrarse button {
+      background-color: #ee0000;
+      border: 1px solid #ee0000;
+      width: 200px;
+      font-size: 14pt; }
+  .foro-form-padre .inicio-sesion {
+    margin: auto;
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start; }
+    .foro-form-padre .inicio-sesion button {
+      background-color: #ee0000;
+      border: 1px solid #ee0000;
+      width: 200px;
+      font-size: 14pt; }
 
 .footer {
-    text-align: center;
-    background-color: rgb(21, 22, 31);
-    color: azure;
-}
-
-@media(max-width:1440px) {
-    .nav-bar-text {
-        font-size: 14pt; 
-    }
-    .banderas-padre a img {
-        width: 62px;
-    }
-
-    .banderas-padre a img:hover {
-        width: 80px;
-    }
-
-    .pilotos-iframe iframe {
-        width: 1000px;
-        height: 562px;
-    }
-
-    .pilotos-button-padre button {
-        width: 135px;
-        margin: 4px;
-        font-size: 10.5pt;
-    }
-
-    .inicio-sesion {
-        width: 500px;
-        height: 100vh; 
-    }
-    .inicio-sesion button{
-        width: 160px;
-        font-size: 13pt;
-    }
-    
-    .form-registrarse {
-        width: 500px;
-        height: 100vh;        
-    }
-    
-    
-    .form-registrarse button{
-        width: 160px;
-        font-size: 13pt;
-    }
-    .foro-form-padre img {
-        width: 450px;
-        height: 314px;
-     }
-}
-
-@media(max-width:1024px) {
-    .nav-bar-text {
-        font-size: 12pt;        
-    }
-    .grid-main-circuitos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        /* grid-template-rows:  1fr 0.1fr 1fr 1fr 1fr 1fr 1fr; */
-        /* grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row; */
-        grid-template-areas:
-            "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3"
-            "circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6"
-            "circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9"
-            "circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12"
-            "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15"
-            "circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18"
-            "circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21"
-            ". . . . circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 . . . .";
-    }
-
-    .grid-main-circuitos div h3 {
-        border: 1px white solid;
-        margin: 0;
-        text-align: center;
-        font-size: 14pt;
-    }
-
-    .banderas-padre a img {
-        width: 44px;
-    }
-
-    .banderas-padre a img:hover {
-        width: 60px;
-    }
-
-    .pilotos-iframe iframe {
-        width: 900px;
-        height: 505px;
-    }
-    .pilotos-button-padre button {
-        width: 127px;
-        margin: 3px;
-        font-size: 10pt;
-    }
-
-    .inicio-sesion {
-        width: 500px;
-        height: 100vh; 
-    }
-    .inicio-sesion button{
-        width: 160px;
-        font-size: 13pt;
-    }
-    
-    .form-registrarse {
-        width: 500px;
-        height: 100vh;        
-    }
-    
-    
-    .form-registrarse button{
-        width: 160px;
-        font-size: 13pt;
-    }
-    .foro-form-padre img {
-        width: 450px;
-        height: 314px;
-     }
-}
-
-@media(max-width:768px) {
-
-    .nav-logo {
-        width: 200px;
-    }
-
-    .grid-main-circuitos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        /* grid-template-rows:  1fr 0.1fr 1fr 1fr 1fr 1fr 1fr; */
-        /* grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row; */
-        grid-template-areas:
-            "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2"
-            "circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
-            "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6"
-            "circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8"
-            "circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10"
-            "circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12"
-            "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14"
-            "circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16"
-            "circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18"
-            "circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20"
-            "circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22"
-            ". . . . . .  circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 . . . . . .";
-    }
-
-    .grid-main-circuitos div h3 {
-        border: 1px white solid;
-        margin: 0;
-        text-align: center;
-        font-size: 14pt;
-    }
-
-    .grid-main-circuitos div ul li {
-        display: block;
-        font-size: 12pt;
-    }
-
-    .banderas-padre a img {
-        width: 33px;
-    }
-
-    .banderas-padre a img:hover {
-        width: 50px;
-    }
-
-    .pilotos-iframe iframe {
-        width: 700px;
-        height: 393px;
-    }
-
-    .pilotos-button-padre button {
-        width: 125px;
-        margin: 3px;
-        font-size: 9.5pt;
-    }
-
-}
-
-@media(max-width:425px) {
-
-    .nav-logo {
-        width: 150px;
-    }
-
-    .grid-main-circuitos {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        /* grid-template-rows:  1fr 0.1fr 1fr 1fr 1fr 1fr 1fr; */
-        /* grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row; */
-        grid-template-areas:
-            "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1"
-            "circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2"
-            "circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3"
-            "circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
-            "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5"
-            "circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6"
-            "circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7"
-            "circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8"
-            "circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito9"
-            "circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10"
-            "circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11"
-            "circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12"
-            "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito13"
-            "circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14"
-            "circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15"
-            "circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16"
-            "circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito17"
-            "circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18"
-            "circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19"
-            "circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20"
-            "circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito21"
-            "circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22"
-            "circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23";
-
-    }
-
-    .grid-main-circuitos div h3 {
-        border: 1px white solid;
-        margin: 0;
-        text-align: center;
-        font-size: 14pt;
-    }
-
-    .grid-main-circuitos div ul li {
-        display: block;
-        font-size: 12pt;
-    }
-
-    .banderas-padre a img {
-        width: 26px;
-    }
-
-    .banderas-padre a img:hover {
-        width: 40px;
-    }
-
-    .pilotos-iframe iframe {
-        width: 400px;
-        height: 225px;
-    }
-
-    .inicio-sesion {
-        width: 350px;
-        height: 100vh; 
-    }
-    .inicio-sesion button{
-        width: 100px;
-        font-size: 11pt;
-    }
-    
-    .form-registrarse {
-        width: 350px;
-        height: 100vh;        
-    }
-    
-    
-    .form-registrarse button{
-        width: 100px;
-        font-size: 11pt;
-    }
-    .foro-form-padre img {
-        width: 400px;
-        height: 280px;
-     }
-
-}
-
-@media(max-width:320px) {
-    .nav-logo {
-        width: 100px;
-    }
-
-    .pilotos-iframe iframe {
-        width: 280px;
-        height: 158px;
-    }
-
-    .inicio-sesion {
-        width: 280px;
-        height: 100vh; 
-    }
-    .inicio-sesion button{
-        width: 90px;
-        font-size: 10pt;
-    }
-    
-    .form-registrarse {
-        width: 280px;
-        height: 100vh;        
-    }
-    
-    
-    .form-registrarse button{
-        width: 90px;
-        font-size: 10pt;
-    }
-    .foro-form-padre img {
-        width: 300px;
-        height: 250px;
-     }
-
-}
+  text-align: center;
+  background-color: #15161f;
+  color: azure; }
+  .footer .li-redes {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 25px; }
+    .footer .li-redes .img-redes {
+      width: 30px; }

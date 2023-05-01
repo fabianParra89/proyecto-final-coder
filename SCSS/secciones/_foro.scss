@@ -1,0 +1,52 @@
+.selector-foro {
+
+    button {
+        color: white;
+    }
+}
+
+.foro-form-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 500px;
+        height: 350px;
+    }
+
+    .form-registrarse {
+        margin: auto;
+        width: 700px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+
+        button {
+            background-color: #ee0000;
+            border: 1px solid #ee0000;
+            width: 200px;
+            font-size: 14pt;
+        }
+    }
+
+    .inicio-sesion {
+        margin: auto;
+        width: 700px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+
+        button {
+            background-color: #ee0000;
+            border: 1px solid #ee0000;
+            width: 200px;
+            font-size: 14pt;
+        }
+    }
+}

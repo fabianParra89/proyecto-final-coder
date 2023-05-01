@@ -1,0 +1,44 @@
+.nav-bar {
+    background-color: rgb(21, 22, 31) !important;
+
+    .nav-logo {
+        width: 300px;
+    }
+
+    .nav-menu-ham {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+        background-blend-mode: multiply, multiply;
+        border: 2px solid #AE1400;
+    }
+
+    .nav-list {
+        margin: auto;
+
+        .nav-bar-text {
+            color: white;
+            font-size: 18pt;
+            margin: 15px;
+            border-radius: 5px;
+
+            &:hover {
+                color: white;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, #AE1400 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+                background-blend-mode: multiply, multiply;
+                font-size: 16pt;
+                transition: font-size 0.5s;
+
+            }
+        }
+    }
+
+    .nav-but-search {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+        background-blend-mode: multiply, multiply;
+        border: 2px solid #AE1400;
+        color: white;
+    }
+
+    .nav-input-search {
+        border: 2px solid #AE1400;
+    }
+}

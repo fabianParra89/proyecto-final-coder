@@ -1,0 +1,168 @@
+.banderas-padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+        img {
+            width: 90px;
+
+            &:hover {
+                width: 105px;
+            }
+        }
+    }
+}
+
+
+.grid-main-circuitos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
+        "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8"
+        "circuito9 circuito9 circuito9 circuito9 circuito9 circuito9 circuito10 circuito10 circuito10 circuito10 circuito10 circuito10 circuito11 circuito11 circuito11 circuito11 circuito11 circuito11 circuito12 circuito12 circuito12 circuito12 circuito12 circuito12"
+        "circuito13 circuito13 circuito13 circuito13 circuito13 circuito13 circuito14 circuito14 circuito14 circuito14 circuito14 circuito14 circuito15 circuito15 circuito15 circuito15 circuito15 circuito15 circuito16 circuito16 circuito16 circuito16 circuito16 circuito16"
+        "circuito17 circuito17 circuito17 circuito17 circuito17 circuito17 circuito18 circuito18 circuito18 circuito18 circuito18 circuito18 circuito19 circuito19 circuito19 circuito19 circuito19 circuito19 circuito20 circuito20 circuito20 circuito20 circuito20 circuito20"
+        ". . . circuito21 circuito21 circuito21 circuito21 circuito21 circuito21 circuito22 circuito22 circuito22 circuito22 circuito22 circuito22 circuito23 circuito23 circuito23 circuito23 circuito23 circuito23  . . .";
+
+    div {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        &:hover {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+
+        img {
+            width: 100%;
+            background-color: white;
+        }
+
+        h3 {
+            border: 1px white solid;
+            margin: 0;
+            text-align: center;
+        }
+
+        ul {
+            border: 1px white solid;
+            li{
+                display: block;
+                p{
+                    margin-bottom: 1px !important; 
+                }
+            }
+        }
+    }
+
+    .circuito1 {
+        grid-area: circuito1;
+    }
+    
+    
+    .circuito2 {
+        grid-area: circuito2;
+    }
+    
+    .circuito3 {
+        grid-area: circuito3;
+    }
+    
+    
+    .circuito4 {
+        grid-area: circuito4;
+    }
+    
+    
+    .circuito5 {
+        grid-area: circuito5;
+    }
+    
+    
+    .circuito6 {
+        grid-area: circuito6;
+    }
+    
+    .circuito7 {
+        grid-area: circuito7;
+    }
+    
+    .circuito8 {
+        grid-area: circuito8;
+    }
+    
+    .circuito9 {
+        grid-area: circuito9;
+    }
+    
+    .circuito10 {
+        grid-area: circuito10;
+    }
+    
+    .circuito11 {
+        grid-area: circuito11;
+    }
+    
+    .circuito12 {
+        grid-area: circuito12;
+    }
+    
+    .circuito13 {
+        grid-area: circuito13;
+    }
+    
+    .circuito14 {
+        grid-area: circuito14;
+    }
+    
+    .circuito15 {
+        grid-area: circuito15;
+    }
+    
+    .circuito16 {
+        grid-area: circuito16;
+    }
+    
+    .circuito17 {
+        grid-area: circuito17;
+    }
+    
+    .circuito18 {
+        grid-area: circuito18;
+    }
+    
+    .circuito19 {
+        grid-area: circuito19;
+    }
+    
+    .circuito20 {
+        grid-area: circuito20;
+    }
+    
+    .circuito21 {
+        grid-area: circuito21;
+    }
+    
+    .circuito22 {
+        grid-area: circuito22;
+    }
+    
+    .circuito23 {
+        grid-area: circuito23;
+    }
+
+}
+
