@@ -12,7 +12,7 @@
 
 .nav-bar-text {
     color: white;
-    font-size: 14pt;
+    font-size: 18pt;
     margin: 15px;
     border-radius: 5px;
 }
@@ -276,7 +276,7 @@
     display: block;
 }
 
-.img-pilotos-padre ul li p{
+.img-pilotos-padre ul li p {
     margin: 0;
 }
 
@@ -294,7 +294,10 @@
 .pilotos-button-padre button {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
     border: none;
-    font-size: 11pt;
+    width: 230px;
+    margin: 5px;
+    font-size: 16pt;
+
 }
 
 .pilotos-iframe {
@@ -305,18 +308,19 @@
 }
 
 .pilotos-iframe iframe {
-    width: 1000px;
-    height: 562px;
+    width: 1300px;
+    height: 730px;
 }
+
 /* estilos pagina estadisticas */
-.estadisticas{
+.estadisticas {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.estadisticas div{
+.estadisticas div {
     display: flex;
     flex-direction: column;
     color: white;
@@ -326,23 +330,56 @@
 
 .inicio-sesion {
     margin: auto;
-    width: 500px;
+    width: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    justify-content: flex-start;
+}
+.inicio-sesion button{
+    background-color: #ee0000;
+    border: 1px solid #ee0000;
+    width: 200px;
+    font-size: 14pt;
 }
 
-.form-registrarse{
+.form-registrarse {
     margin: auto;
-    width: 500px;
+    width: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    justify-content: flex-start;
 }
 
-.selector-foro button{
+
+.form-registrarse button{
+    background-color: #ee0000;
+    border: 1px solid #ee0000;
+    width: 200px;
+    font-size: 14pt;
+}
+
+.selector-foro button {
     color: white;
 }
+
+.foro-form-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foro-form-padre img {
+   width: 500px;
+   height: 350px;
+}
+
+
+
+
 
 /* Estilos footer paginas */
 .li-redes {
@@ -361,25 +398,10 @@
     color: azure;
 }
 
-@media(max-width:768px) {
-    .nav-logo {
-        width: 200px;
-    }
-}
-
-@media(max-width:425px) {
-    .nav-logo {
-        width: 150px;
-    }
-}
-
-@media(max-width:320px) {
-    .nav-logo {
-        width: 100px;
-    }
-}
-
 @media(max-width:1440px) {
+    .nav-bar-text {
+        font-size: 14pt; 
+    }
     .banderas-padre a img {
         width: 62px;
     }
@@ -387,9 +409,47 @@
     .banderas-padre a img:hover {
         width: 80px;
     }
+
+    .pilotos-iframe iframe {
+        width: 1000px;
+        height: 562px;
+    }
+
+    .pilotos-button-padre button {
+        width: 135px;
+        margin: 4px;
+        font-size: 10.5pt;
+    }
+
+    .inicio-sesion {
+        width: 500px;
+        height: 100vh; 
+    }
+    .inicio-sesion button{
+        width: 160px;
+        font-size: 13pt;
+    }
+    
+    .form-registrarse {
+        width: 500px;
+        height: 100vh;        
+    }
+    
+    
+    .form-registrarse button{
+        width: 160px;
+        font-size: 13pt;
+    }
+    .foro-form-padre img {
+        width: 450px;
+        height: 314px;
+     }
 }
 
 @media(max-width:1024px) {
+    .nav-bar-text {
+        font-size: 12pt;        
+    }
     .grid-main-circuitos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -422,9 +482,48 @@
     .banderas-padre a img:hover {
         width: 60px;
     }
+
+    .pilotos-iframe iframe {
+        width: 900px;
+        height: 505px;
+    }
+    .pilotos-button-padre button {
+        width: 127px;
+        margin: 3px;
+        font-size: 10pt;
+    }
+
+    .inicio-sesion {
+        width: 500px;
+        height: 100vh; 
+    }
+    .inicio-sesion button{
+        width: 160px;
+        font-size: 13pt;
+    }
+    
+    .form-registrarse {
+        width: 500px;
+        height: 100vh;        
+    }
+    
+    
+    .form-registrarse button{
+        width: 160px;
+        font-size: 13pt;
+    }
+    .foro-form-padre img {
+        width: 450px;
+        height: 314px;
+     }
 }
 
 @media(max-width:768px) {
+
+    .nav-logo {
+        width: 200px;
+    }
+
     .grid-main-circuitos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -467,9 +566,25 @@
         width: 50px;
     }
 
+    .pilotos-iframe iframe {
+        width: 700px;
+        height: 393px;
+    }
+
+    .pilotos-button-padre button {
+        width: 125px;
+        margin: 3px;
+        font-size: 9.5pt;
+    }
+
 }
 
 @media(max-width:425px) {
+
+    .nav-logo {
+        width: 150px;
+    }
+
     .grid-main-circuitos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -523,5 +638,70 @@
     .banderas-padre a img:hover {
         width: 40px;
     }
+
+    .pilotos-iframe iframe {
+        width: 400px;
+        height: 225px;
+    }
+
+    .inicio-sesion {
+        width: 350px;
+        height: 100vh; 
+    }
+    .inicio-sesion button{
+        width: 100px;
+        font-size: 11pt;
+    }
     
+    .form-registrarse {
+        width: 350px;
+        height: 100vh;        
+    }
+    
+    
+    .form-registrarse button{
+        width: 100px;
+        font-size: 11pt;
+    }
+    .foro-form-padre img {
+        width: 400px;
+        height: 280px;
+     }
+
+}
+
+@media(max-width:320px) {
+    .nav-logo {
+        width: 100px;
+    }
+
+    .pilotos-iframe iframe {
+        width: 280px;
+        height: 158px;
+    }
+
+    .inicio-sesion {
+        width: 280px;
+        height: 100vh; 
+    }
+    .inicio-sesion button{
+        width: 90px;
+        font-size: 10pt;
+    }
+    
+    .form-registrarse {
+        width: 280px;
+        height: 100vh;        
+    }
+    
+    
+    .form-registrarse button{
+        width: 90px;
+        font-size: 10pt;
+    }
+    .foro-form-padre img {
+        width: 300px;
+        height: 250px;
+     }
+
 }
