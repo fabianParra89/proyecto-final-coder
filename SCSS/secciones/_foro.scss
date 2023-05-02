@@ -51,18 +51,123 @@
     }
 }
 
+@media (max-width:1440px) {
+
+    .foro-form-padre {
+        img {
+            @include ancho-alto(450px, 314px);
+        }
+
+        .form-registrarse {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 13pt);
+            }
+        }
+
+        .inicio-sesion {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 13pt);
+            }
+        }
+    }
+}
+
 @media (max-width:1024px) {
-    
+    .foro-form-padre {
+        img {
+            @include ancho-alto(450px, 314px);
+        }
+
+        .form-registrarse {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 13pt);
+            }
+        }
+
+        .inicio-sesion {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 13pt);
+            }
+        }
+    }
 }
 
 @media (max-width:768px) {
-    
+    .foro-form-padre {
+        img {
+            @include ancho-alto(450px, 314px);
+        }
+
+        .form-registrarse {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 13pt);
+            }
+        }
+
+        .inicio-sesion {
+            @include ancho-alto(500px, 100vh);
+
+            button {
+                @include ancho-fontSize(160px, 11pt);
+            }
+        }
+    }
 }
 
 @media (max-width:425px) {
-    
+    .foro-form-padre {
+        img {
+            @include ancho-alto(400px, 280px);
+        }
+
+        .form-registrarse {
+            @include ancho-alto(350px, 100vh);
+
+            button {
+                @include ancho-fontSize(100px, 11pt);
+            }
+        }
+
+        .inicio-sesion {
+            @include ancho-alto(350px, 100vh);
+
+            button {
+                @include ancho-fontSize(100px, 11pt);
+            }
+        }
+    }
 }
 
 @media (max-width:320px) {
-    
+    .foro-form-padre {
+        img {
+            @include ancho-alto(300px, 250px);
+        }
+
+        .form-registrarse {
+            @include ancho-alto(280px, 100vh);
+
+            button {
+                @include ancho-fontSize(90px, 10pt);
+            }
+        }
+
+        .inicio-sesion {
+            @include ancho-alto(280px, 100vh);
+
+            button {
+                @include ancho-fontSize(90px, 10pt);
+            }
+        }
+    }
 }

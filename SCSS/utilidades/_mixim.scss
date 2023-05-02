@@ -17,7 +17,7 @@
     }
 }
 
-// Mixin en pagina pilotos
+// Mixin en pagina pilotos y Foro
 
 @mixin botones-piloto($ancho, $margin, $fontSize) {
     width: $ancho;
@@ -25,7 +25,12 @@
     font-size: $fontSize;
 }
 
-@mixin iframe($ancho, $altura) {
+@mixin ancho-alto($ancho, $altura) {
     width: $ancho;
     height: $altura;
+}
+
+@mixin ancho-fontSize($ancho, $fontSize) {
+    width: $ancho;
+    font-size: $fontSize;
 }

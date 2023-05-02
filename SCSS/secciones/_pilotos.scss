@@ -66,7 +66,7 @@
 
     .pilotos-iframe {
         iframe {
-            @include iframe(1000px, 562px);
+            @include ancho-alto(1000px, 562px);
         }
     }
 }
@@ -80,7 +80,7 @@
 
     .pilotos-iframe {
         iframe {
-            @include iframe(900px, 505px);
+            @include ancho-alto(900px, 505px);
         }
     }
 }
@@ -94,7 +94,7 @@
 
     .pilotos-iframe {
         iframe {
-            @include iframe(700px, 393px);
+            @include ancho-alto(700px, 393px);
         }
     }
 }
@@ -102,7 +102,7 @@
 @media (max-width:425px) {
     .pilotos-iframe {
         iframe {
-            @include iframe(400px, 225px);
+            @include ancho-alto(400px, 225px);
         }
     }
 }
@@ -110,7 +110,7 @@
 @media (max-width:320px) {
     .pilotos-iframe {
         iframe {
-            @include iframe(280px, 158px);
+            @include ancho-alto(280px, 158px);
         }
     }
 }
