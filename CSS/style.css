@@ -72,6 +72,12 @@
     padding-bottom: 1.25rem;
     color: #FFE;
     text-align: center; }
+  .gradiente-radial .titulo {
+    text-align: center;
+    margin-top: 2rem;
+    color: black;
+    font-size: 20pt;
+    font-weight: bold; }
 
 .main-cards {
   margin-block-start: 3rem; }
