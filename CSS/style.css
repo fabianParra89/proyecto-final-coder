@@ -254,7 +254,8 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  padding: 20px; }
+  padding: 20px;
+  height: 100vh; }
   .pilotos-iframe iframe {
     width: 1300px;
     height: 730px; }
@@ -300,7 +301,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  height: 100vh; }
   .estadisticas div {
     display: flex;
     flex-direction: column;
