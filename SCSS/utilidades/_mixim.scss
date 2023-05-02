@@ -7,3 +7,11 @@
     font-size: $fontSize;
     margin: $margin;
 }
+
+@mixin banderas-calendario($ancho1, $ancho2) {
+    width: $ancho1;
+
+    &:hover {
+        width: $ancho1;
+    }
+}
