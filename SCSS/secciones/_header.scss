@@ -1,14 +1,14 @@
 .nav-bar {
-    background-color: rgb(21, 22, 31) !important;
+    background-color: $negro-fondo !important;
 
     .nav-logo {
         width: 300px;
     }
 
     .nav-menu-ham {
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+        background: linear-gradient(to bottom, $blanco-opa15 0%, $negro-opa15 100%), radial-gradient(at top center, $blanco-opa40 0%, $negro-opa40 120%) #989898;
         background-blend-mode: multiply, multiply;
-        border: 2px solid #AE1400;
+        border: 2px solid $escarlata-f1;
     }
 
     .nav-list {
@@ -22,7 +22,7 @@
 
             &:hover {
                 color: white;
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, #AE1400 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+                background: linear-gradient(to bottom, $blanco-opa15 0%, $escarlata-f1 100%), radial-gradient(at top center, $blanco-opa40 0%, $negro-opa40 120%) #989898;
                 background-blend-mode: multiply, multiply;
                 font-size: 16pt;
                 transition: font-size 0.5s;
@@ -32,13 +32,58 @@
     }
 
     .nav-but-search {
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+        background: linear-gradient(to bottom, $blanco-opa15 0%, $negro-opa15 100%), radial-gradient(at top center, $blanco-opa40 0%, $negro-opa40 120%) #989898;
         background-blend-mode: multiply, multiply;
-        border: 2px solid #AE1400;
+        border: 2px solid $escarlata-f1;
         color: white;
     }
 
     .nav-input-search {
-        border: 2px solid #AE1400;
+        border: 2px solid $escarlata-f1;
+    }
+}
+
+
+@media (max-width:1440px) {
+    .nav-bar { 
+        .nav-list {
+            .nav-bar-text {
+                @include navBar-header(14pt, 10px);
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .nav-bar { 
+        .nav-list {
+            .nav-bar-text {
+                @include navBar-header(12pt, 5px);
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .nav-bar {
+        .nav-logo{
+            @include tamanio-logo(200px)
+        }  
+    }
+}
+
+@media (max-width:425px) {
+    .nav-bar {
+        .nav-logo {
+            @include tamanio-logo(150px)
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .nav-bar {
+        .nav-logo {
+            @include tamanio-logo(100px)
+        }
     }
 }

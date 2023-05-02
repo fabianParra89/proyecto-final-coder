@@ -1,0 +1,9 @@
+// Mixin para headers
+@mixin tamanio-logo($ancho) {
+    width: $ancho;
+}
+
+@mixin navBar-header($fontSize, $margin) {
+    font-size: $fontSize;
+    margin: $margin;
+}

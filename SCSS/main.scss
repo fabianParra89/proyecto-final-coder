@@ -1,4 +1,13 @@
+
+// variales
+@import './utilidades/colors';
+
+
+//Reseteo
 @import './utilidades/reseteo';
+@import './utilidades/mixim';
+
+// imports de secciones y paginas
 @import './secciones/header';
 @import './secciones/index';
 @import './secciones/calendario';
@@ -6,3 +15,4 @@
 @import './secciones/estadisticas';
 @import './secciones/foro';    
 @import './secciones/footer';
+

@@ -31,6 +31,28 @@
   .nav-bar .nav-input-search {
     border: 2px solid #AE1400; }
 
+@media (max-width: 1440px) {
+  .nav-bar .nav-list .nav-bar-text {
+    font-size: 14pt;
+    margin: 10px; } }
+
+@media (max-width: 1024px) {
+  .nav-bar .nav-list .nav-bar-text {
+    font-size: 12pt;
+    margin: 5px; } }
+
+@media (max-width: 768px) {
+  .nav-bar .nav-logo {
+    width: 200px; } }
+
+@media (max-width: 425px) {
+  .nav-bar .nav-logo {
+    width: 150px; } }
+
+@media (max-width: 320px) {
+  .nav-bar .nav-logo {
+    width: 100px; } }
+
 .gradiente-radial {
   width: 100%;
   background-image: radial-gradient(#d7d2cc, #15161f 70%);
