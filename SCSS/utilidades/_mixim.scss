@@ -8,10 +8,24 @@
     margin: $margin;
 }
 
+// Mixin en pagina calendario
 @mixin banderas-calendario($ancho1, $ancho2) {
     width: $ancho1;
 
     &:hover {
         width: $ancho1;
     }
+}
+
+// Mixin en pagina pilotos
+
+@mixin botones-piloto($ancho, $margin, $fontSize) {
+    width: $ancho;
+    margin: $margin;
+    font-size: $fontSize;
+}
+
+@mixin iframe($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
 }
