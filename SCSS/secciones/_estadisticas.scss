@@ -1,13 +1,15 @@
 .estadisticas {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 100vh;
-
     div {
-        display: flex;
-        flex-direction: column;
-        color: white;
+        div {
+            h2 {
+                button{
+                    background-color: $rojo-f1;
+                    color: white;
+                    font-weight: bold;
+                }
+                
+            }
+        }
     }
+    
 }

@@ -297,16 +297,10 @@
     width: 280px;
     height: 158px; } }
 
-.estadisticas {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 100vh; }
-  .estadisticas div {
-    display: flex;
-    flex-direction: column;
-    color: white; }
+.estadisticas div div h2 button {
+  background-color: #ee0000;
+  color: white;
+  font-weight: bold; }
 
 .selector-foro button {
   color: white; }
