@@ -18,7 +18,7 @@
 
 .grid-main-circuitos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(24, 1fr);
     grid-template-areas:
         "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
         "circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito7 circuito7 circuito7 circuito7 circuito7 circuito7 circuito8 circuito8 circuito8 circuito8 circuito8 circuito8"
@@ -192,7 +192,7 @@
 
         .grid-main-circuitos {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(24, 1fr);
             grid-template-areas:
                 "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3"
                 "circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito5 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6 circuito6"
@@ -225,7 +225,7 @@
 
     .grid-main-circuitos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(24, 1fr);
         grid-template-areas:
             "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2"
             "circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito3 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4 circuito4"
@@ -262,7 +262,7 @@
 
     .grid-main-circuitos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(24, 1fr);
         grid-template-areas:
             "circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1 circuito1"
             "circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2 circuito2"
