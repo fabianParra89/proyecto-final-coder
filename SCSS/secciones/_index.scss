@@ -3,6 +3,11 @@
     background-image: radial-gradient(#d7d2cc, $negro-fondo 70%);
     padding-block-start: 3rem;
     padding-block-end: 3rem;
+    .carrusel-img{
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px 0px $rojo-f1-opa;
+
+    }
     .carousel-item {
         div {
             a {
@@ -10,6 +15,7 @@
                 color: white;
                 font-size: 18pt;
                 font-weight: bold;
+
             }
         }
 
@@ -35,4 +41,6 @@
 
 .main-cards {
     margin-block-start: 3rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px $rojo-f1-opa;
 }

@@ -13,13 +13,20 @@
     }
 }
 
+.modal-full {
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 0px $rojo-f1-opa;
+}
 .img-pilotos-padre {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     img {
-        width: 400px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+        width: 300px;
+        margin: 1rem;
     }
 
     ul {
@@ -29,6 +36,9 @@
         margin: auto;
         width: 100%;
         border: 1px solid black;
+        background-color: $negro-fondo;
+        color: white;
+        border-radius: 10px;
 
         li {
             display: block;
@@ -41,7 +51,14 @@
 }
 
 .titulo-modal {
+   background-color: $negro-fondo;
     border: 1px solid black;
+    h3 {
+        color: white;
+    }
+    button {
+        background-color: white;
+    }
 }
 
 .pilotos-iframe {
@@ -112,6 +129,14 @@
     .pilotos-iframe {
         iframe {
             @include ancho-alto(280px, 158px);
+        }
+    }
+    .img-pilotos-padre {
+        img {
+            border-radius: 15px;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+            width: 250px;
+            margin: 1rem;
         }
     }
 }

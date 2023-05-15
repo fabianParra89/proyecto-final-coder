@@ -1,15 +1,59 @@
 .estadisticas {
-    div {
-        div {
-            h2 {
-                button{
-                    background-color: $rojo-f1;
-                    color: white;
-                    font-weight: bold;
-                }
-                
-            }
+    .estadisticas-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+            border-radius: 20px;
+            box-shadow: 10px 10px 5px 0px $rojo-f1;
+            // box-shadow: 10px 10px 5px lightblue;
+            margin-top: 2rem;
         }
     }
-    
+
+    div {
+        h2 {
+            button {
+                background-color: $rojo-f1;
+                color: white;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
+
+
+@media (max-width:425px) {
+    .estadisticas {
+        .estadisticas-img {
+            img{
+                width: 380px;
+            }
+            
+        }
+    }
+}
+
+
+@media (max-width:375px) {
+    .estadisticas {
+        .estadisticas-img {
+            img{
+                width: 320px;
+            }
+            
+        }
+    }
+}
+@media (max-width:320px) {
+   .estadisticas {
+        .estadisticas-img {
+            img{
+                width: 280px;
+            }
+            
+        }
+    }
 }
