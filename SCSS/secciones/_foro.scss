@@ -33,19 +33,17 @@
         }
 
         h3 {
-            background-color: $rojo-f1;
-            color: white;
-            border-radius: 10px;
-            padding: 8px;
+            color: $escarlata-f1;
+            font-weight: bold;
+            text-align: center;
         }
 
         form {
             div {
                 label {
-                    background-color: $rojo-f1;
-                    color: white;
-                    border-radius: 5px;
-                    padding: 4px;
+                    color: $escarlata-f1;
+                    font-weight: bold;
+                    font-size: 12pt;
                 }
             }
         }
@@ -65,6 +63,22 @@
             border: 1px solid $rojo-f1;
             width: 200px;
             font-size: 14pt;
+        }
+
+        h3 {
+            color: $escarlata-f1;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        form {
+            div {
+                label {
+                    color: $escarlata-f1;
+                    font-weight: bold;
+                    font-size: 12pt;
+                }
+            }
         }
     }
 }

@@ -374,15 +374,13 @@
       width: 200px;
       font-size: 14pt; }
     .foro-form-padre .form-registrarse h3 {
-      background-color: #ee0000;
-      color: white;
-      border-radius: 10px;
-      padding: 8px; }
+      color: #AE1400;
+      font-weight: bold;
+      text-align: center; }
     .foro-form-padre .form-registrarse form div label {
-      background-color: #ee0000;
-      color: white;
-      border-radius: 5px;
-      padding: 4px; }
+      color: #AE1400;
+      font-weight: bold;
+      font-size: 12pt; }
   .foro-form-padre .inicio-sesion {
     margin: auto;
     width: 700px;
@@ -396,6 +394,14 @@
       border: 1px solid #ee0000;
       width: 200px;
       font-size: 14pt; }
+    .foro-form-padre .inicio-sesion h3 {
+      color: #AE1400;
+      font-weight: bold;
+      text-align: center; }
+    .foro-form-padre .inicio-sesion form div label {
+      color: #AE1400;
+      font-weight: bold;
+      font-size: 12pt; }
 
 @media (max-width: 1440px) {
   .foro-form-padre img {
